@@ -1,7 +1,7 @@
 # Service for sending emails from other services
 ## Installation and deployment
 
-1. [install dotnet-sdk](https://docs.microsoft.com/ru-ru/dotnet/core/install/sdk?pivots=os-linux)
+1. [install dotnet-sdk](https://docs.microsoft.com/dotnet/core/install/sdk?pivots=os-linux)
 2. edit Smtp and Urls objects in appsettings.json for your needs
 3. ```dotnet restore```
 4. ```dotnet publish -r <platform> -c Release```
